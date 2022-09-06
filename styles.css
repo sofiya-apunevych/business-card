@@ -1,0 +1,49 @@
+body {
+    margin: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.avatar {
+    width: 150px;
+}
+
+.avatar:hover{
+    border-radius: 50px;
+}
+
+.card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    text-align: center;
+    background: #FF9770;
+    color: #4F1500;
+    border-bottom: 11px solid #FFD670;
+    
+}
+
+.border-blue {
+    border: 1px dotted blue;
+}
+
+.parent{
+    box-sizing: border-box;
+    width: 100px;
+    height: 15px;
+    margin:0px auto;
+    background: #E9FF70;
+    
+}
+.child{
+    width: 90%;
+    height: 15px;
+    background:#FF9770;
+    transition: 3s ;
+}
+
+.parent:hover .child{
+   transform: translateX(100%); 
+}
